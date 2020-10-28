@@ -1,0 +1,4 @@
+host-suffix, wr.pvp.net
+host-suffix, riotcdn.net
+host-suffix, riotcdn.net
+host-suffix, riotcdn.net
