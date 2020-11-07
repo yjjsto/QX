@@ -1,0 +1,99 @@
+# QX软件Task配置for yjjsto （31条常用签到）
+
+#野比签到
+#京东多合一签到
+15 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一, enabled=true
+
+#爱奇艺VIP签到
+20 0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,tag=爱奇艺, enabled=true
+
+#吾爱破解签到
+30 0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,tag=吾爱破解, enabled=true
+
+# Sunert https://github.com/Sunert/Scripts/tree/master/Task
+#京东到家签到
+30 10 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js, tag=京东到家, enabled=true
+
+#惊喜
+7 0 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js, tag=惊喜, enabled=true
+
+# 红鲤鱼与绿鲤鱼与驴   https://github.com/wangdelu2020/hongliyu
+
+#联通话费流量查询
+7 0 * * * https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/liantongnotice.js, tag=联通流量话费提醒, enabled=true
+
+# yangtingxiao  https://github.com/yangtingxiao
+#京东天天挖矿
+10 1 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/ttwk/ttwk.js, tag=天天挖矿, enabled=true
+
+#京东白条
+0 9 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=京东白条, enabled=true
+
+#京东时光机
+20 0-20/4 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js, tag=京东时光机, enabled=true
+
+# 东东农场
+5 6-18/6 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js, tag=东东农场, enabled=true
+
+# 东东萌宠
+10 7-19/6 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js, tag=东东萌宠, enabled=true
+
+# 京东种豆得豆
+1 7-21/2 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js, tag=京东种豆得豆, enabled=true
+
+# 宠汪汪(主要是日常任务,不过里面也有喂食和领取三餐狗粮)
+15 */2 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js, tag=宠汪汪, enabled=true
+
+# 宠汪汪喂食
+12 */1 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_feedPets.js, tag=宠汪汪喂食, enabled=true
+
+# 宠汪汪偷好友积分与狗粮
+0 0,6 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮, enabled=true
+
+# 宠汪汪积分兑换奖品
+1 0,8,12,16 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js, tag=宠汪汪积分兑换奖品, enabled=true
+
+# 京东天天加速
+8 */3 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js, tag=京东天天加速, enabled=true
+
+# 京东摇钱树
+3 */3 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js, tag=京东摇钱树, enabled=true
+
+# 京小超
+11 1-23/2 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js, tag=京小超, enabled=true
+
+# 京小超兑换奖品
+0 0 0 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js, tag=京小超兑换奖品, enabled=true
+
+# 取关京东店铺商品
+55 23 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js, tag=取关京东店铺商品, enabled=true
+
+# 进店领豆
+10 0 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_shop.js, tag=进店领豆, enabled=true
+
+#摇京豆
+5 0 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_club_lottery.js, tag=摇京豆, enabled=true
+
+# 京东手机狂欢城
+1 0-18/6 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_818.js, tag=京东手机狂欢城, enabled=true
+
+# 京东星推官
+1 0 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_xtg.js, tag=京东星推官, enabled=true
+
+#京东全民开红包
+1 1 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_redPacket.js, tag=京东全民开红包, enabled=true
+
+#京豆变动通知
+2 9 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_bean_change.js, tag=京豆变动通知, enabled=true
+
+#京东全民营业领金币
+20 * * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_collectProduceScore.js, tag=京东全民营业领金币, enabled=true
+
+#宠汪汪邀请助力与赛跑助力
+15 10 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力, enabled=true
+
+#小米运动
+25 17 * * * https://raw.githubusercontent.com/lxk0301/scripts/master/backUp/xmSports.js, tag=小米运动, enabled=true
+
+# 什么值得买
+5 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.js, tag=什么值得买, enabled=true
