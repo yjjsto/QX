@@ -11,7 +11,7 @@ https://raw.githubusercontent.com/yjjsto/QX/master/OtherJs.conf
 
 #NobyDa获取Cookies
 
-https://raw.githubusercontent.com/yjjsto/QX/master/NobyDa/getcookies.conf
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js_Remote_Cookie.conf
 
 #chavyleung获取Cookies
 
